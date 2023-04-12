@@ -15,3 +15,13 @@ If you don't have a Jupyter environment set up, you can install Jupyter Notebook
 1. Install Jupyter Notebook by following the instructions on the [official Jupyter website](https://jupyter.org/install).
 
 2. Ensure you have Python installed. If not, you can download and install Python from the [official Python website](https://www.python.org/downloads/).
+## Contents
+1. **Bitcoin and Cryptocurrencies: Full dataset, filtering, and reproducibility:**
+2. **Discard the cryptocurrencies without a market capitalization:**
+3. **How big is Bitcoin compared with the rest of the cryptocurrencies?:**
+4. **Making the plot easier to read and more informative:**
+5. **What is going on?! Volatility in cryptocurrencies:**
+6. **Well, we can already see that things are *a bit* crazy:**
+7. **Ok, those are... interesting. Let's check the weekly Series too.:**
+8. **How small is small?:**
+9. **Most coins are tiny:**
