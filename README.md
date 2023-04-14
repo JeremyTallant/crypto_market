@@ -16,12 +16,12 @@ If you don't have a Jupyter environment set up, you can install Jupyter Notebook
 
 2. Ensure you have Python installed. If not, you can download and install Python from the [official Python website](https://www.python.org/downloads/).
 ## Contents
-1. **Bitcoin and Cryptocurrencies: Full dataset, filtering, and reproducibility:**
-2. **Discard the cryptocurrencies without a market capitalization:**
-3. **How big is Bitcoin compared with the rest of the cryptocurrencies?:**
-4. **Making the plot easier to read and more informative:**
-5. **What is going on?! Volatility in cryptocurrencies:**
-6. **Well, we can already see that things are *a bit* crazy:**
-7. **Ok, those are... interesting. Let's check the weekly Series too.:**
-8. **How small is small?:**
-9. **Most coins are tiny:**
+1. **Bitcoin and Cryptocurrencies: Full dataset, filtering, and reproducibility:** Load the saved CSV file and select relevant columns.
+2. **Discard the cryptocurrencies without a market capitalization:** Filter out the coins with no known market capitalization.
+3. **How big is Bitcoin compared with the rest of the cryptocurrencies?:** Visualize the market capitalization of the top 10 cryptocurrencies.
+4. **Making the plot easier to read and more informative:** Make the plot from the last task more informative with colors and a nice log scale.
+5. **What is going on?! Volatility in cryptocurrencies:** Create a DataFrame that contains volatility information on cryptocurrencies.
+6. **Well, we can already see that things are *a bit* crazy:** Make a bar plot that shows the biggest gainers and the biggest losers.
+7. **Ok, those are... interesting. Let's check the weekly Series too.:** Call the function we created in the last task above, but with the weekly data.
+8. **How small is small?:** Use the `.query()` method to select all large cap coins in cap.
+9. **Most coins are tiny:** Group *large*, *mid* and *small* cap coins into a group called *biggish* and make a barplot of counts of *biggish*, *micro* and *nano* coins.
